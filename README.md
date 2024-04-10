@@ -26,3 +26,10 @@ Once you have the proper data files, you should be able to isolate just the data
 6. Compare your best ES and best ARIMA models for each time series using forecast evaluation metrics. Show which model is best in each case.
 7. Using your best model, forecast the rest of 2022 for each time series. Show these forecasts by plotting the past data points in 1 color and the future data points in a second color.
 
+# word frequency analysis.
+This [link](https://www.kaggle.com/datasets/ayhmrba/elon-musk-tweets-2010-2021) provides Twitter data of Elon Musk from 2010-2022. For analysis consider the years 2017-2021 (last 5 complete years). Each year has thousands of tweets. Assume each year to be a document (all the tweets in one year will be considered as a document)
+1. Compute the term frequencies for each year. They should be normalized (scale of [0, 1]). Exclude stopwords.
+2. Show the top 10 words (for each year) by highest value of word frequency.
+3. Plot a histogram of word frequencies for each year
+4. Demonstrate Zipf’s law by plotting log-log plots of word frequencies v. rank for each year
+5. Use TF-IDF to calculate and show the 5 most “important” words for each year
